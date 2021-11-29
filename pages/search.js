@@ -47,7 +47,7 @@ const Search = () => {
                 <FromToIcons>
                     <CircleIcon src='https://img.icons8.com/ios-filled/50/9CA3AF/filled-circle.png' />
                     <Line src='https://img.icons8.com/ios/50/9CA3AF/vertical-line.png' />
-                    <SquareIcon src='https://img.icons8.com/windows/50/000000/square-full.png' />
+                    <SquareIcon src='htt ps://img.icons8.com/windows/50/000000/square-full.png' />
                 </FromToIcons>   
                 <InputBoxes>
                     <Input placeholder='Enter pickup location' onChange={event => setPickuplocation(event.target.value)} />
