@@ -8,12 +8,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@turf/turf": "^6.5.0",
+    "firebase": "^9.5.0",
+    "mapbox-gl": "^2.6.1",
     "next": "12.0.4",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-router-dom": "^6.0.2"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "12.0.4"
+    "eslint-config-next": "12.0.4",
+    "postcss": "^8.3.11",
+    "tailwind-styled-components": "^2.0.3",
+    "tailwindcss": "^2.2.19"
   }
 }
