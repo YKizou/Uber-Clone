@@ -3,10 +3,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import tw from 'tailwind-styled-components'
 import mapboxgl from '!mapbox-gl';
-import Map from './components/Map'
+import Map from '../components/Map'
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import RideSelector from './components/RideSelector';
+import RideSelector from '../components/RideSelector';
 
 const Confirm = (distance) => {
     const router = useRouter()
