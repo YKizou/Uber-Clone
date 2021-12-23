@@ -23,7 +23,7 @@ export default function Home() {
         })
       } else {
         setUser(null)
-        router.push('/login')
+        router.push('/')
       }
     })
   }, [])
@@ -40,24 +40,26 @@ export default function Home() {
           </Profile>
         </Header>  
         <ActionButtons>
-          <Link href='/search'>
+          <Link href='/search' passHref>
             <ActionButton>
               <ActionButtonImage src="https://i.ibb.co/cyvcpfF/uberx.png"/>
               Ride
             </ActionButton>
           </Link>
-          <ActionButton>
+          <ActionButton className='text-red-600'>
             <ActionButtonImage src="https://i.ibb.co/n776JLm/bike.png"/>
-            Wheels
+            Wheels (Not Available)
           </ActionButton>
-          <ActionButton>
+          <ActionButton className='text-red-600'>
             <ActionButtonImage src="https://i.ibb.co/5RjchBg/uberschedule.png"/>
-            Reserve
+            Reserve (Not Available)
           </ActionButton>
         </ActionButtons>
-        <InputButton>
-          Where to ?
-        </InputButton>
+        <Link href='/search' passHref>
+          <InputButton>
+            Where to ?
+          </InputButton>
+        </Link>
       </ActionItems>
     </Wrapper>
   )

@@ -47,7 +47,7 @@ const Search = () => {
                 <FromToIcons>
                     <CircleIcon src='https://img.icons8.com/ios-filled/50/9CA3AF/filled-circle.png' />
                     <Line src='https://img.icons8.com/ios/50/9CA3AF/vertical-line.png' />
-                    <SquareIcon src='htt ps://img.icons8.com/windows/50/000000/square-full.png' />
+                    <SquareIcon src='https://img.icons8.com/windows/50/000000/square-full.png' />
                 </FromToIcons>   
                 <InputBoxes>
                     <Input placeholder='Enter pickup location' onChange={event => setPickuplocation(event.target.value)} />
@@ -55,9 +55,9 @@ const Search = () => {
                 </InputBoxes>
                 <PlusIcon src='https://img.icons8.com/ios/50/000000/plus-math.png' /> 
             </InputContainer>
-            <SavedPlaces>
+            <SavedPlaces className='text-red-600'>
                 <StarIcon src='https://img.icons8.com/ios-filled/50/ffffff/star--v1.png'/>
-                 Saved Places    
+                 Saved Places (Not available)    
             </SavedPlaces>
             <Link href={{ pathname: '/confirm', query: {pickuplocation: pickuplocation, dropofflocation: dropofflocation} }} >  
                 <ConfirmButtonContainer>
