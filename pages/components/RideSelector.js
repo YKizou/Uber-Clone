@@ -6,7 +6,7 @@ import tw from 'tailwind-styled-components'
 import mapboxgl from '!mapbox-gl';
 import Link from 'next/link'
 import { useRouter } from 'next/router';
-import { carList  } from '../data/carList';
+import { carList  } from '../../data/carList';
 
 const RideSelector = (props) => {
     const [rideDuration, setRideDuration] = useState(0)
