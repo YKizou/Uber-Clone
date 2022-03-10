@@ -1,4 +1,4 @@
-# A Uber Clone project using the open-source development framework Next.js. 
+# A Uber Clone project using Next.js. 
 
 This project is aimed for beginners and has two main goals :  
   - Work with an external API.
